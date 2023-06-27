@@ -1,0 +1,28 @@
+@media only screen and (max-width:768px){
+    .navbar img{
+        margin: 0 auto;
+    }
+    .navbar a{
+        display: none;
+    }
+    .explore .explore__content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .j_content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+    .contact_item .social button{
+        width: 18rem;
+      }
+}
+@media only screen and (max-width:1064px){
+    .navbar img{
+        margin: 0 auto;
+    }
+    .contact_item .social button{
+        width: 18rem;
+      }
+}
